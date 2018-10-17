@@ -375,10 +375,10 @@ input:-webkit-autofill:focus {
     center / cover;
 }
 
-.anlge-bg {
+/*.anlge-bg {
   background: url("images/angle-bg.png") no-repeat scroll center bottom -120px /
     100% auto;
-}
+}*/
 
 .overlay {
   position: relative;
