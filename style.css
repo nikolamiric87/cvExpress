@@ -378,6 +378,7 @@ input:-webkit-autofill:focus {
 .anlge-bg {
   background: url("images/angle-bg.png") no-repeat scroll center bottom -120px /
     100% auto;
+  opacity: 0.75;
 }
 
 .overlay {
@@ -795,6 +796,7 @@ input:-webkit-autofill:focus {
   background: url("images/angle-bg.png") no-repeat scroll center bottom / 100%
     auto;
   z-index: -1;
+  opacity: 0.75;
 }
 
 .footer-top {
