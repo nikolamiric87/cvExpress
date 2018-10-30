@@ -264,12 +264,20 @@ input:-webkit-autofill:focus {
   transform: translateY(0);
 }
 
+.price-area .box {
+  background: rgba(46, 212, 96, 0.75);
+}
+
 .box:hover {
   -webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+}
+
+.price-area .box:hover {
+  color: #2f60c3;
 }
 
 .box h4 {
@@ -291,6 +299,10 @@ input:-webkit-autofill:focus {
 .box:hover .box-icon img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+.box .box-icon span {
+  font-size: 120px;
 }
 
 /**
