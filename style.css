@@ -431,6 +431,9 @@ input:-webkit-autofill:focus {
 .screen-slider .owl-controls {
   position: absolute;
   left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
   top: 100%;
 }
 
