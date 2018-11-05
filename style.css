@@ -799,6 +799,36 @@ input:-webkit-autofill:focus {
 }
 
 /***
+*Partners-area
+***/
+
+.jumbotron {
+    background-color:#ffffff;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h2 {
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.jumbotron h2:after {
+  content: "\e675";
+  font-family: "themify";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 15px;
+  height: 15px;
+  font-size: 14px;
+}
+
+/***
 *Footer-area
 ***/
 
