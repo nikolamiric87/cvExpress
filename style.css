@@ -804,6 +804,7 @@ input:-webkit-autofill:focus {
 
 .jumbotron {
     background-color:#ffffff;
+    padding-top: 120px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
