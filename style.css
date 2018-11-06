@@ -383,7 +383,7 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-  background: #000000 url("images/parallax-2.jpg") no-repeat scroll center
+  background: #000000 url("images/heroImage.jpg") no-repeat scroll center
     center / cover;
 }
 
