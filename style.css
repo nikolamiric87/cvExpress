@@ -805,14 +805,14 @@ input:-webkit-autofill:focus {
 .jumbotron {
     background-color:#ffffff;
     padding-top: 120px;
-    padding-bottom: 0px;
+    padding-bottom: 80px;
     margin-bottom: 0px;
 }
 
 .jumbotron h2 {
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   padding-bottom: 20px;
 }
 
@@ -827,6 +827,18 @@ input:-webkit-autofill:focus {
   width: 15px;
   height: 15px;
   font-size: 14px;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+    
+}
+
+#logoPic {
+  padding-top: 30px;
 }
 
 /***
