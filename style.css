@@ -802,21 +802,20 @@ input:-webkit-autofill:focus {
 *Partners-area
 ***/
 
-.jumbotron {
-    background-color:#ffffff;
-    padding-top: 120px;
-    padding-bottom: 80px;
-    margin-bottom: 0px;
-}
+/* .partners-title {
+  margin-bottom: 60px;
+} */
 
-.jumbotron h2 {
+
+.partners-title h2 {
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-.jumbotron h2:after {
+
+.partners-title h2:after {
   content: "\e675";
   font-family: "themify";
   position: absolute;
@@ -829,16 +828,16 @@ input:-webkit-autofill:focus {
   font-size: 14px;
 }
 
-.jumbotron img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    margin-bottom: 40px;
-    
+.partners-space {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 60px;
 }
 
-#logoPic {
-  padding-top: 30px;
+.partners-logo {
+  margin: 1rem;
+  padding: 1rem;
 }
 
 /***
