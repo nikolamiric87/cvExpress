@@ -1,6 +1,11 @@
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .partners-logo-margin-top{
+        margin-top: 220px;
+        margin-bottom: 40px;
+    }
+}
 
 
 /* Tablet Layout: 768px. */
@@ -32,6 +37,9 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
     }
+    .partners-logo-margin-top{
+        margin-top: 220px;
+    }
 }
 
 
@@ -57,17 +65,23 @@
         background-color: #ffffff;
     }
     .mainmenu-area #primary-menu {
-        background-color: #138FC2;
+        background-color:black;
     }
     .mainmenu-area #primary-menu ul {
         overflow-y: auto;
-        max-height: 70vh;
+        /* max-height: 70vh; */
         margin: 0;
     }
+
+    .mainmenu-area #primary-menu > ul > li {
+        float: none;
+    }
+
     .mainmenu-area #primary-menu > ul > li > a {
         padding: 15px;
         overflow: hidden;
     }
+
     .box {
         padding: 30px 15px;
     }
@@ -91,9 +105,26 @@
     .mainmenu-area .logo {
         margin-left: 15px;
     }
+    .girl-partner{
+        display: none;
+    }
+    .partners-right{
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+
+    .partners-logo-margin-top{
+        margin-top: 220px;
+        margin-bottom: 40px;
+    }
 }
 
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .partners-logo-margin-top{
+        margin-top: 220px;
+        margin-bottom: 40px;
+    }
+}
