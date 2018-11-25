@@ -40,6 +40,10 @@
     .partners-logo-margin-top{
         margin-top: 220px;
     }
+    .our-prices-margin{
+        margin: 0;
+    }
+  
 }
 
 
@@ -117,6 +121,9 @@
         margin-top: 220px;
         margin-bottom: 40px;
     }
+    .our-prices-margin{
+        margin: 0;
+    }
 }
 
 
@@ -126,5 +133,8 @@
     .partners-logo-margin-top{
         margin-top: 220px;
         margin-bottom: 40px;
+    }
+    .our-prices-margin{
+        margin: 0;
     }
 }
